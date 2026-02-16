@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Smart Bookmark App",
-  description: "Save and manage your bookmarks",
+  description: "Save your bookmarks securely with Supabase",
 };
 
 export default function RootLayout({
@@ -13,14 +13,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header className="header">
+        <header className="header-bar">
           <h1>📑 Smart Bookmark App</h1>
         </header>
 
-        <main className="main">{children}</main>
+        <main className="main-content">{children}</main>
 
         <footer className="footer">
-          <p>© 2026 Smart Bookmark App by Samruddhi Shetty</p>
+          © 2026 Smart Bookmark App by Samruddhi Shetty
         </footer>
       </body>
     </html>
